@@ -1,0 +1,45 @@
+body{
+  margin: 0 0;
+  background: url("../images/green_cup.png") center center fixed;
+}
+header{
+  width: 100%;
+  background-color: rgb(174, 211, 204);
+  height: 33px;
+  border-top-left-radius: 50px;
+  border-top-right-radius: 50px;
+  padding-top: 10px;
+}
+nav{
+  width: 150px;
+  padding: 5px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 1px;
+  border-bottom: 5px solid rgb(174, 211, 204);
+  display: inline-block;
+}
+nav:hover{
+  color: green;
+  border-bottom: 5px solid white;
+}
+.wrapper{
+    width:1200px;
+    height: 500px;
+    margin: 60px auto;
+    background-color: rgb(208, 179, 208);
+    border-radius: 50px;
+}
+.side_bar{
+    width:300px;
+    height: 457px;
+    background-color: green;
+    border-bottom-left-radius: 50px;
+    float: left;
+}
+.side_bar h1{
+    color:white;
+    text-align: center;
+    width: 100%;
+    border-bottom-color: white;
+}
