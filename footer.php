@@ -1,0 +1,6 @@
+            <footer>
+                This is a footer
+            </footer>
+        </div>
+    </body>
+</html>

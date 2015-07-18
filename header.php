@@ -1,4 +1,6 @@
-<a href="/hdevtech"><nav>Home</nav></a>
-<a href="/hdevtech"><nav>Products</nav></a>
-<a href="/hdevtech"><nav>About Us</nav></a>
-<a href="/hdevtech"><nav>Contact Us</nav></a>
+<header>    
+    <a href="#"><nav>Home</nav></a>
+    <a href="#"><nav>Products</nav></a>
+    <a href="#"><nav>About Us</nav></a>
+    <a href="#"><nav>Contact Us</nav></a>
+</header>
