@@ -42,3 +42,9 @@ nav:hover{
     text-align: center;
     width: 100%;
 }
+footer{
+    display: block;
+    width: 100%;
+    background-color: blue;
+    color: white;
+}
