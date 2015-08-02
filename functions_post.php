@@ -5,7 +5,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+<<<<<<< HEAD
     include('connection.php');
+=======
+include('connection.php');
+>>>>>>> c6b0b96a26e8b710eeff275127705e7713eb90a0
     function post_get($which, $collum){
         $result = mysql_query("SELECT * FROM posts");
         $count = false;
@@ -36,6 +40,7 @@
         }
         if($count==false){echo 'The id '.$collum.' does not exist in the table posts';};
     }
+<<<<<<< HEAD
     function post_add($add){
         $sql = "INSERT INTO posts (id) Values (".$add.")";
         $mysql_query = mysql_query($sql);
@@ -62,3 +67,5 @@
             }
         }
     }
+=======
+>>>>>>> c6b0b96a26e8b710eeff275127705e7713eb90a0
