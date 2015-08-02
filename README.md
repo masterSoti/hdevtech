@@ -1,5 +1,6 @@
 # hdevtech
-add a connection.php file to the repo..
+add a connection.php file to the repo..;
+add the code below with some variations to that repo....;
     $servername = "127.0.0.1";
     $username = "some_user";
     $password = "some_password";
