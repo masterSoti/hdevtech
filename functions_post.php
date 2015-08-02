@@ -5,16 +5,6 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-$servername = "127.0.0.1";
-    $username = "root";
-    $password = "Suyogasdf";
-    $database = "Suyog_Soti_development";
-    
-    $conn = mysql_connect($servername, $username, $password);
-    $db_select = mysql_select_db($database);
-    if($conn->connect_error){
-        die("Connectionfailed" . $conn->connect_error);
-    }
     function post_get($which, $collum){
         $result = mysql_query("SELECT * FROM posts");
         $count = false;
