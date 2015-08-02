@@ -5,6 +5,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+include('connections.php');
     function post_get($which, $collum){
         $result = mysql_query("SELECT * FROM posts");
         $count = false;
